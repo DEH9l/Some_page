@@ -2144,19 +2144,19 @@
 <!--            </form>        </div>-->
 <!--    </div>-->
 <!--</div>-->
-<script src="../assets/30b5f6b6/jquery.min.js?v=1572005146"></script>
-<script src="../assets/a2b44658/js/bootstrap.min.js?v=1572005146"></script>
-<script src="../assets/95eeffce/js/swiper.jquery.min.js?v=1572005146"></script>
-<script src="../assets/2b6d0d6b/js/main-page.js?v=1572005146"></script>
-<script src="../assets/4657b1b9/yii.js?v=1572005146"></script>
-<script src="../assets/4657b1b9/yii.validation.js?v=1572005146"></script>
-<script src="../assets/4657b1b9/yii.activeForm.js?v=1572005146"></script>
-<script src="../assets/a3d5e0e7/packaged/jquery.noty.packaged.js?v=1572005146"></script>
-<script src="../assets/a3d5e0e7/themes/default.js?v=1572005146"></script>
-<script src="../assets/b8a7070e/jquery.maskedinput.min.js?v=1572005146"></script>
-<script src="../assets/a0d3d5de/js/jquery.dotdotdot.min.js?v=1572005146"></script>
-<script src="../assets/d11786e8/js/functions.js?v=1572005146"></script>
-<script src="../assets/d11786e8/js/init.js?v=1572005146"></script>
+<script src="/assets/30b5f6b6/jquery.min.js?v=1572005146"></script>
+<script src="/assets/a2b44658/js/bootstrap.min.js?v=1572005146"></script>
+<script src="/assets/95eeffce/js/swiper.jquery.min.js?v=1572005146"></script>
+<script src="/assets/2b6d0d6b/js/main-page.js?v=1572005146"></script>
+<script src="/assets/4657b1b9/yii.js?v=1572005146"></script>
+<script src="/assets/4657b1b9/yii.validation.js?v=1572005146"></script>
+<script src="/assets/4657b1b9/yii.activeForm.js?v=1572005146"></script>
+<script src="/assets/a3d5e0e7/packaged/jquery.noty.packaged.js?v=1572005146"></script>
+<script src="/assets/a3d5e0e7/themes/default.js?v=1572005146"></script>
+<script src="/assets/b8a7070e/jquery.maskedinput.min.js?v=1572005146"></script>
+<script src="/assets/a0d3d5de/js/jquery.dotdotdot.min.js?v=1572005146"></script>
+<script src="/assets/d11786e8/js/functions.js?v=1572005146"></script>
+<script src="/assets/d11786e8/js/init.js?v=1572005146"></script>
 <script>jQuery(function ($) {
     jQuery('#reviewForm').yiiActiveForm([{"id":"reviewform-item","name":"item","container":".field-reviewform-item","input":"#reviewform-item","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Значение «Item» должно быть целым числом.","skipOnEmpty":1});}},{"id":"reviewform-comment","name":"comment","container":".field-reviewform-comment","input":"#reviewform-comment","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Это поле обязательно к заполнению"});yii.validation.string(value, messages, {"message":"Значение «Комментарий» должно быть строкой.","skipOnEmpty":1});}},{"id":"reviewform-ratio","name":"ratio","container":".field-reviewform-ratio","input":"#reviewform-ratio","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Поставьте оценку"});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Значение «Рейтинг» должно быть целым числом.","min":1,"tooSmall":"Значение «Рейтинг» должно быть не меньше 1.","max":5,"tooBig":"Значение «Рейтинг» не должно превышать 5.","skipOnEmpty":1});}}], []);
     jQuery('#callbackForm').yiiActiveForm([{"id":"requestcallform-name","name":"name","container":".field-requestcallform-name","input":"#requestcallform-name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Это поле обязательно к заполнению"});yii.validation.string(value, messages, {"message":"Значение «Имя» должно быть строкой.","skipOnEmpty":1});}},{"id":"requestcallform-phone","name":"phone","container":".field-requestcallform-phone","input":"#requestcallform-phone","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Это поле обязательно к заполнению"});yii.validation.string(value, messages, {"message":"Значение «Телефон» должно быть строкой.","skipOnEmpty":1});}}], []);
