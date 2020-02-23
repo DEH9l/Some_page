@@ -1,0 +1,14 @@
+.item-image-container{
+    height: 100px;
+    overflow: hidden;
+}
+.item-image{
+    width: 100px;
+    height: auto;
+}
+
+.item-image-container .delete-image{
+    cursor: pointer;
+    float: right;
+    color: red;
+}

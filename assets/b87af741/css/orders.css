@@ -1,0 +1,28 @@
+.select2-container--krajee #select2-orders-newmailcity-results .select2-results__option--highlighted[aria-selected]{
+    background-color: #DB3FA1;
+    color: #fff;
+}
+#createOrderForm .select2-container--krajee .select2-selection--single .select2-selection__arrow b{
+    border-color: #DB3FA1 transparent transparent transparent;
+}
+
+#createOrderForm .select2-container--krajee.select2-container--open .select2-selection--single .select2-selection__arrow b{
+    border-color: transparent transparent #DB3FA1 transparent;
+}
+
+.select2-container--krajee #select2-orders-newmailsettlement-results .select2-results__option--highlighted[aria-selected]{
+    background-color: #DB3FA1;
+    color: #fff;
+}
+
+#createOrderForm .select2-container--krajee .select2-selection__clear{
+    color: #DB3FA1;
+}
+
+#orders-address{
+    max-width: 100%;
+}
+
+#createOrderForm .main_head{
+    font-size: 30px;
+}

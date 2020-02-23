@@ -1,0 +1,119 @@
+.addToOrder{
+    height: 24px;
+    cursor: pointer;
+}
+.item-count {
+    width: 45px;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+td input {
+    width: 100%;
+}
+
+#print-templates, #order-statuses, #delivery-type{
+    width: 160px;
+    display: inline-block;
+}
+
+#delivery-type{
+    width: 110px;
+}
+
+.tooltip-inner{
+    background-color: #2f7a2f;
+}
+.tooltip.top .tooltip-arrow{
+    border-top-color: #21b70f;
+}
+.tooltip.right .tooltip-arrow{
+    border-right-color: #21b70f;
+}
+.tooltip.bottom .tooltip-arrow{
+    border-bottom-color: #21b70f;
+}
+.tooltip.left .tooltip-arrow{
+    border-left-color: #21b70f;
+}
+.tooltip.in{
+    opacity: 1;
+    overflow: visible;
+}
+
+.twitter-typeahead{
+    width: 100%;
+}
+
+.form_header .twitter-typeahead {
+    width: 100%;
+}
+
+.twitter-typeahead .tt-menu {
+    /*display: block !important;*/
+    background-color: #F5F5F5;
+    padding: 2px 0 7px;
+    border: 1px solid #BBBBBB;
+    border-top: 0;
+    /*width: 100%;*/
+    right: 73px;
+    text-align: left;
+    overflow: hidden;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .15);
+    max-height: 612px;
+}
+
+.twitter-typeahead .tt-suggestion {
+    cursor: pointer;
+    color: #747474;
+    padding: 10px 20px;
+    clear: both;
+    line-height: 1.4;
+    white-space: nowrap;
+    border-top: 1px solid #D0C2B8;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.twitter-typeahead .tt-suggestion:first-child {
+    border: 0;
+}
+
+.twitter-typeahead .tt-suggestion:hover {
+    background-color: #fff;
+}
+
+.twitter-typeahead .tt-suggestion strong,
+.twitter-typeahead pre {
+    color: #030303;
+}
+
+.filter-date {
+    width: 130px;
+    display: inline-block;
+}
+
+#filterStatus{
+    width: 200px;
+    display: inline-block;
+}
+
+/*.mask-phone{
+    width: 170px;
+    display: inline-block;
+}*/
+
+.orders-search{
+    width: 400px;
+}
+.items-list table tr.bad-item{
+    background-color: #f5cdcd;
+}
+
