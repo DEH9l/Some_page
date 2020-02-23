@@ -1,0 +1,19 @@
+.slider-banners{
+    height: 430px;
+}
+.slider-banners.swiper-container-horizontal > .swiper-pagination-bullets{
+    position: relative;
+    bottom: 35px;
+}
+.slider-banners  .swiper-pagination-bullet{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    border: 3px solid #C1168B;
+    opacity: 1;
+    background: transparent;
+}
+
+.slider-banners  .swiper-pagination-bullet-active{
+    background: #C1168B;
+}
